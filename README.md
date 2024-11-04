@@ -23,7 +23,7 @@ Idea Maker is a Python application that automates the process of generating soft
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Gmarcoel/idea_maker.git
    cd idea_maker
    ```
 
@@ -36,9 +36,9 @@ Idea Maker is a Python application that automates the process of generating soft
 3. **Set required environment variables:**
 
    ```bash
-   export OPENAI_API_KEY='your-openai-api-key'
-   export OPENAI_MODEL_NAME='your-openai-model-name'
-   export OPENAI_BASE_URL='your-openai-base-url'
+   export OPENAI_API_KEY='anything'
+   export OPENAI_MODEL_NAME='your-ollama-model-name'
+   export OPENAI_BASE_URL='http://localhost:11434/v1'
    ```
 
    Alternatively, you can run the provided 
